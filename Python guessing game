@@ -1,0 +1,14 @@
+raspolozenje = input("Kako se oscjecas danas? ")
+
+if raspolozenje == "sretno":
+    print("Super.drago mi je da si sretan!")
+elif raspolozenje == "nervozno":
+    print("Udahni duboko 3 puta")
+elif raspolozenje == "tužno":
+    print("Razvedri se!")
+elif raspolozenje == "uzbuđeno":
+    print("Woohoo!")
+elif raspolozenje == "opušteno":
+    print("Da.danas je dan za odmaranje")
+else:
+    print("Sorry ne prepoznajem ovo raspoloženje.")
